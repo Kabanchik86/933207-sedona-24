@@ -9,16 +9,26 @@
 <body>
   <main class="container">
     <section class="appointment">
-        <h2 class="visually-hidden">Форма поиска отеля</h2>
+      <h2 class="visually-hidden">Форма поиска отеля</h2>
       <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-    <input type="data" name="data" placeholder="24 апреля 2017"><br>
-    <input type="data" name="data" placeholder="4 июля 2017"><br>
-    <p>Взрослые
-    <button>&plus;</button>
-    <button>&minus;</button>
-    </p>
-    <p>Дети</p>
-    </form>
+        <p class="appointment-item"><label for="appointment-date-arrival">Дата заезда:</label>
+          <input type="text" name="date-arrival" id="appointment-date-arrival" placeholder="24 апреля 2017"><br>
+        </p>
+        <p class="appointment-item"><label for="appointment-date-leaving">Дата выезда:</label>
+          <input type="text" name="date-leaving" id="appointment-date-leaving" placeholder="4 июля 2017"><br>
+        </p>
+        <p class="appointment-adult"><label for="appointment-number-adult">Взрослые</label>
+          <button>&plus;</button>
+          <input type="text" name="adult-numbers" id="appointment-number-adult" placeholder="2">
+          <button>&minus;</button>
+        </p>
+        <p class="appointment-children"><label for="appointment-number-children">Дети</label>
+          <button>&plus;</button>
+          <input type="text" name="children-numbers" id="appointment-number-children" placeholder="0">
+          <button>&minus;</button>
+        </p>
+        <button class="button" type="submit">Найти</button>
+      </form>
     </section>
   </main>
 </body>
