@@ -18,14 +18,14 @@
           <input type="text" name="date-leaving" id="appointment-date-leaving" placeholder="4 июля 2017"><br>
         </p>
         <p class="appointment-adult"><label for="appointment-number-adult">Взрослые</label>
-          <button>&plus;</button>
-          <input type="text" name="adult-numbers" id="appointment-number-adult" placeholder="2">
-          <button>&minus;</button>
+          <button aria-label="Кнопка добавить количество взрослых">&plus;</button>
+          <input type="text" name="adult-numbers" id="appointment-number-adult" aria-label="Поле ввода количества взрослых" placeholder="2">
+          <button aria-label="Кнопка уменьшить количество взрослых">&minus;</button>
         </p>
         <p class="appointment-children"><label for="appointment-number-children">Дети</label>
-          <button>&plus;</button>
-          <input type="text" name="children-numbers" id="appointment-number-children" placeholder="0">
-          <button>&minus;</button>
+          <button aria-label="Кнопка добавить количество детей">&plus;</button>
+          <input type="text" name="children-numbers" id="appointment-number-children" aria-label="Поле ввода количества детей" placeholder="0">
+          <button aria-label="Кнопка уменьшить количество детей">&minus;</button>
         </p>
         <button class="button" type="submit">Найти</button>
       </form>
