@@ -214,6 +214,11 @@ a {
   color: #857871;
 }
 
+.container{
+  background-color: white;
+  width: 568px;
+  height: 395px;
+}
 .appointment input:hover,
 .appointment input:focus {
   background-color: #f2f2f2;
