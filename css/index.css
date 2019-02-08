@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Regular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: black;
+}
+
+.main-photo {
+  text-align: center;
+  background-image: url(img/background.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main-headline {
+  text-align: center;
+}
+
+.main-headline b {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.index-background {
+  background-color: #81b3d2;
+  width: 400px;
+  height: 256px;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+}
+
+.index-background b {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-facilities {
+  background: #ffffff;
+}
+
+.main-facilities-items {
+  list-style: none;
+}
+
+.main-facilities-items b {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-headline2 b {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-headline2 {
+  background: #eeeeee;
+}
+
+.main-search span {
+  text-align: center;
+  background: #ffffff;
+}
+
+.main-search h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #604e43;
+}
+
+.button:active {
+  background-color: #503e33;
+}
+
+.main-footer {
+  color: black;
+  background-color: #f9fbf6;
+}
+
+.main-footer a {
+  color: black;
+}
+
+.footer-social ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-social span {
+  color: black
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.site-navigation-current a {
+  color: #766357;
+}
+
+.hotels-search {
+  background-color: #ffffff;
+}
+
+.hotels-navigation {
+  list-style: none;
+}
+
+.hotels-navigation h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.raiting .stars {
+  color: #81b3d2;
+}
+
+.raiting .number {
+  color: #666666;
+  font-weight: normal;
+  background: #f2f2f2;
+  width: 110px;
+  height: 27px;
+}
+
+.hotels-navigation a h3 {
+  color: black;
+}
+
+.hotels-navigation h3:hover,
+.hotels-navigation h3:focus {
+  color: #81b3d2;
+}
+
+.hotels-navigation h3:active {
+  color: #bdbbbc;
+}
+
+.button-details {
+  font: inherit;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button-details:hover,
+.button-details:focus {
+  background-color: #669ec0;
+}
+
+.button-details:active {
+  background-color: #5496bd;
+  color: #857871;
+}
+
+.button-book {
+  font: inherit;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #766357;
+  border: none;
+}
+
+.button-book:hover,
+.button-book:focus {
+  background-color: #604e43;
+}
+
+.button-book:active {
+  background-color: #503e33;
+  color: #857871;
+}
+
+.appointment input:hover,
+.appointment input:focus {
+  background-color: #f2f2f2;
+}
+
+.appointment input:active {
+  background-color: #ebebeb;
+}
+
+.appointment-adult button{
+  color: #a9a9a9;
+}
+
+.appointment-adult button:hover,
+.appointment-adult button:focus {
+  color: #000000;
+}
+.appointment-adult button:active {
+  color: #81b3d2;
+}
+
+.appointment-children button{
+  color: #a9a9a9;
+}
+
+.appointment-children button:hover,
+.appointment-children button:focus {
+  color: #000000;
+}
+.appointment-children button:active {
+  color: #81b3d2;
+}
+
+.submit {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color:  #81b3d2;
+}
+.submit:hover,
+.submit:focus {
+  background-color: #669ec0;
+}
+.submit:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}

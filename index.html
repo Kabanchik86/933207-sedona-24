@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,14 +30,17 @@
     </section>
     <section class="main-headline">
       <h2 class="visually-hidden">Описание городка</h2>
-      <b>Седона &ndash; небольшой городок в аризоне, заслуживающий большего!</b>
+      <b>Седона &ndash; небольшой городок в аризоне,</b><br>
+      <b>заслуживающий большего!</b>
       <p>Рассмотрим 5 причин, по которым седона круче, чем Гранд каньон!</p>
     </section>
-    <section class="main-headline">
-      <div>
-        <b>Настоящий городок</b>
+    <section class="main-headline1">
+      <div class="index-background">
+        <b>Настоящий</b><br>
+        <b>городок</b>
         <p>&ndash;&#8470;1&ndash;</p>
-        <p>Седона &ndash; не аттракцион для туристов, там течет своя жизнь</p>
+        <p>Седона &ndash; не аттракцион для туристов,</p>
+        <p>там течет своя жизнь</p>
       </div>
       <div>
         <a href="#"><img src="img/city.jpg" width="800" height="256" alt="Фотографии городока"></a>
@@ -42,7 +48,7 @@
     </section>
     <section class="main-facilities">
       <h2 class="visually-hidden">Возможности для туристов</h2>
-      <ul>
+      <ul class="main-facilities-items">
         <li>
           <b>Жильё</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -56,11 +62,13 @@
           <p>Не только китайского, но и местного производства!</p>
       </ul>
     </section>
-    <section class="main-headline">
-      <div>
-        <b>Там есть мост дьявола</b>
+    <section class="main-headline1">
+      <div class="index-background">
+        <b>Там есть</b><br>
+        <b>мост дьявола</b>
         <p>&ndash;&#8470;2&ndash;</p>
-        <p>Да, по нему можно пройтись если конечно вы осмелитесь</p>
+        <p>Да, по нему можно пройтись если конечно</p>
+        <p>вы осмелитесь</p>
       </div>
       <div>
         <a href="#"><img src="img/bridge.jpg" width="800" height="256" alt="Фотографии моста"></a>
@@ -68,28 +76,36 @@
     </section>
     <section class="main-headline2">
       <h2 class="visually-hidden">Остальные преимущества</h2>
-      <ul>
+      <ul class="main-facilities-items">
         <li>
-          <b>Небольшая площадь</b>
+          <b>Небольшая</b><br>
+          <b>площадь</b>
           <p>&ndash;&#8470;3&ndash;</p>
-          <p>Все достопримечательности находятся очень близко</p>
+          <p>Все достопримечательности</p>
+          <p>находятся очень близко</p>
         </li>
         <li>
-          <b>Красивая дорога</b>
+          <b>Красивая</b><br>
+          <b>дорога</b>
           <p>&ndash;&#8470;4&ndash;</p>
-          <p>Ехать в Седону из Лас&ndash;Вегаса совсем не скучно!</p>
+          <p>Ехать в Седону из Лас&ndash;Вегаса</p>
+          <p>совсем не скучно!</p>
         </li>
         <li>
-          <b>Мало туристов</b>
+          <b>Мало</b><br>
+          <b>туристов</b>
           <p>&ndash;&#8470;5&ndash;</p>
-          <p>Большинство едет в Гранд&ndash;Каньон и толпиться там</p>
+          <p>Большинство едет в Гранд&ndash;Каньон</p>
+          <p>и толпиться там</p>
       </ul>
     </section>
     <section class=main-search>
       <h2 class="visually-hidden">Поиск жилья</h2>
-      <b>Заинтересовались?</b>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиницы в Седоне</p>
-      <a class="search-hotels" href="search.html">Поиск гостиницы в седоне</a>
+      <span>
+        <h3>Заинтересовались?</h3>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиницы в Седоне</p>
+      </span>
+      <a class="button" href="search.html">Поиск гостиницы в седоне</a>
     </section>
   </main>
   <footer class="main-footer">
@@ -107,9 +123,8 @@
     </section>
     <section>
       <h2 class="visually-hidden">Разработчик</h2>
-      <p class="footer-copyright">
-        WEBSITE BY
-        <a href="https://up.htmlacademy.ru/">
+      <p class="footer-copyright">WEBSITE BY
+      <a href="https://up.htmlacademy.ru/">
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
         </a>
       </p>
