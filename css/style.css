@@ -50,7 +50,7 @@ img {
   margin: auto;
 }
 
-.site-navigation1 {
+.first-site-nav {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -62,7 +62,7 @@ img {
   padding-top: 11px;
 }
 
-.site-navigation1 a {
+.first-site-nav a {
   color: black;
 }
 
@@ -76,7 +76,7 @@ img {
   height: 56px;
 }
 
-.site-navigation2 {
+.second-site-nav {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -96,13 +96,10 @@ img {
   width: 239px;
   height: 56px;
 }
-.site-navigation2 a {
+.second-site-nav a {
   color: black;
 }
 
-main h1{
-  text-align: center;
-}
 .main-photo {
   padding-top: 76px;
   padding-bottom: 80px;
@@ -139,7 +136,7 @@ main h1{
 .main-headline h3 {
   padding-top: 61px;
   padding-bottom: 38px;
-  margin: 0;
+  margin: 0px;
   font-size: 21px;
   line-height: 26px;
 }
@@ -148,7 +145,7 @@ main h1{
   padding-bottom: 56px;
 }
 
-.main-headline1 {
+.first-main-headline {
   width: 1200px;
   display: flex;
   margin: auto;
@@ -169,13 +166,13 @@ main h1{
 }
 
 
-.main-headline3 {
+.third-main-headline {
   width: 1200px;
   display: flex;
   margin: auto;
 }
 
-.index-background3 {
+.second-index-background {
   background-color: #81b3d2;
   text-align: center;
   color: white;
@@ -184,13 +181,13 @@ main h1{
   order: 1;
 }
 
-.index-background3 h3 {
+.second-index-background h3 {
   padding-top: 23px;
   font-size: 21px;
   line-height: 26px;
 }
 
-.index-background3 a {
+.second-index-background a {
   order: 0;
 }
 
@@ -258,11 +255,11 @@ main h1{
   background-color: white;
 }
 
-.main-headline2 {
+.second-main-headline {
   text-align: center;
 }
 
-.main-facilities-items2 {
+.second-main-facilities-items{
   background: #eeeeee;
   width: 1160px;
   display: flex;
@@ -273,19 +270,19 @@ main h1{
 
 }
 
-.main-facilities-items2 h3 {
+.second-main-facilities-items h3 {
   font-size: 21px;
   line-height: 26px;
   padding-top: 50px;
 }
 
-.main-headline2 h3 {
+.second-main-headline h3 {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
 }
 
-.main-headline2 p {
+.second-main-headline p {
   padding-bottom: 63px;
 }
 
@@ -298,16 +295,16 @@ main h1{
   margin: auto;
 }
 
-.main-search-description1 h3{
+.first-main-search-descript h3{
   padding-top: 57px;
   font-size: 30px;
   line-height: 36px;
 }
-.main-search-description1 p{
+.first-main-search-descript p{
   padding-bottom: 52px;
 }
 
-.main-search-description2 a{
+.second-main-search-descript a{
   display: block;
   width: 568px;
   margin:auto;
@@ -419,10 +416,10 @@ main h1{
   fill: #c5c3c4;
 }
 
-.site-navigation-current a {
+.site-nav-current a {
   color: #766357;
   display: block;
-  padding-left: 40px;
+  padding-left: 74px;
 }
 
 .hotels-search  {
@@ -431,13 +428,13 @@ main h1{
   flex-direction: column;
   margin: auto;
 }
-.hotels-navigation {
+.hotels-nav {
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
 
-.hotels-navigation1 {
+.first-hotels-nav {
   margin: 0px;
   padding: 0px;
   padding-top: 30px;
@@ -449,15 +446,31 @@ main h1{
   border: 1px solid #e5e5e5;
 }
 
-.hotels-navigation1 h3{
+.first-hotels-nav h3{
   margin: 0px;
   padding: 0px;
 }
-.hotels-navigation1 p {
+.first-hotels-nav p {
   margin: 0px;
   padding: 0px;
   display: flex;
   
+}
+
+.correction span {
+  display: block;
+}
+
+.money {
+  margin-left: 39px;
+}
+
+.second-money {
+  margin-left: 64px;
+}
+
+.third-money {
+  margin-left: 21px;
 }
 
 .correction {
@@ -483,7 +496,7 @@ main h1{
   margin-top: 10px;
 }
 
-.hotels-navigation h3 {
+.hotels-nav h3 {
   font-size: 21px;
   line-height: 26px;
 }
@@ -509,16 +522,16 @@ main h1{
   display: block;
 }
 
-.hotels-navigation a h3 {
+.hotels-nav a h3 {
   color: black;
 }
 
-.hotels-navigation h3:hover,
-.hotels-navigation h3:focus {
+.hotels-nav h3:hover,
+.hotels-nav h3:focus {
   color: #81b3d2;
 }
 
-.hotels-navigation h3:active {
+.hotels-nav h3:active {
   color: #bdbbbc;
 }
 
