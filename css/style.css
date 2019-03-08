@@ -535,6 +535,7 @@ img {
 
 .first-hotels-nav {
   height: 150px;
+  padding-left: 38px;
   list-style: none;
   display: flex;
   background: white;
