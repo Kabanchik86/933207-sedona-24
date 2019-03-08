@@ -761,7 +761,10 @@ img {
   top: 2168px;
   margin-left: -284px;
   left: 50%;
+}
 
+.modal-show {
+  display: none;
 }
 
 .appointment {
@@ -800,20 +803,27 @@ img {
   padding-left: 55px;
 }
 
+.second-appointment{
+  display: flex;
+}
+
+
 .third-forms {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   margin: -4px;
   background-color: #ebebeb;
   border: 0px;
+  padding-top: 3px;
 }
 
 .fourth-forms {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   margin: -4px;
   background-color: #ebebeb;
   border: 0px;
+  padding-top: 3px;
 }
 
 .plus {

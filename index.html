@@ -6,7 +6,6 @@
   <title>HTML Academy: Седона</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
@@ -151,28 +150,28 @@
       </p>
     </section>
   </footer>
-  <section class="container">
+  <section class="container ">
     <div class="appointment">
       <h2 class="visually-hidden">Форма поиска отеля</h2>
       <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="appointment-item"><label for="appointment-date-arrival">Дата заезда:</label>
-          <input type="text" name="date-arrival" class="first-forms" id="appointment-date-arrival" placeholder="24 АПРЕЛЯ 2017"><br>
+          <input type="text" name="date-arrival" class="first-forms" id="appointment-date-arrival" placeholder="24 АПРЕЛЯ 2017" required><br>
         </p>
         <p class="second-appointment-item"><label for="appointment-date-leaving">Дата выезда:</label>
-          <input type="text" name="date-leaving" class="second-forms" id="appointment-date-leaving" placeholder="4 ИЮЛЯ 2017"><br>
+          <input type="text" name="date-leaving" class="second-forms" id="appointment-date-leaving" placeholder="4 ИЮЛЯ 2017" required><br>
         </p>
     </div>
     <div class="second-appointment">
       <p class="appointment-adult"><label for="appointment-number-adult">Взрослые</label>
         <button class="minus" aria-label="Кнопка добавить количество взрослых">&minus;</button>
         <input type="text" name="adult-numbers" class="third-forms" id="appointment-number-adult" aria-label="Поле ввода количества взрослых"
-          placeholder="2">
+          placeholder="2" required>
         <button class="plus" aria-label="Кнопка уменьшить количество взрослых">&plus;</button>
       </p>
       <p class="appointment-children"><label for="appointment-number-children">Дети</label>
         <button class="minus" aria-label="Кнопка добавить количество детей">&minus;</button>
         <input type="text" name="children-numbers" class="fourth-forms" id="appointment-number-children" aria-label="Поле ввода количества детей"
-          placeholder="0">
+          placeholder="0" required>
         <button class="plus" aria-label="Кнопка уменьшить количество детей">&plus;</button>
       </p>
     </div>
@@ -194,6 +193,7 @@
     </form>
     </div>
   </section>
+  <script src="../933207-sedona-24/js/script.js"></script>
 </body>
 
 </html>
