@@ -530,15 +530,14 @@ img {
   margin: 0px;
   padding: 0px;
   list-style: none;
-  margin: auto;
 }
 
 .first-hotels-nav {
   height: 150px;
+  background-color: white;
   padding-left: 38px;
   list-style: none;
   display: flex;
-  background: white;
   border: 1px solid #e5e5e5;
 }
 
@@ -550,37 +549,36 @@ img {
 .first-hotels-nav h3 {
   margin: 0px;
   padding: 0px;
-  padding-top: 26px;
+  padding-top: 24px;
   padding-left: 30px;
 }
 
-.first-hotels-nav p {
+.price {
   margin: 0px;
   padding: 0px;
   display: flex;
 }
 
 .buildings {
-  display: block;
-  margin-left: 30px;
-  padding-top: 4px;
-
+  margin: 0px;
+  padding: 0px;
+  padding-top: 2px;
+  padding-left: 30px;
 }
 
 .money {
-  display: block;
-  margin-left: 38px;
-  margin-top: 4px;
-
+  margin: 0px;
+  padding: 0px;
+  padding-left: 38px;
+  padding-top: 2px;
 }
 
-.second-money {
-  margin-left: 32px;
+.buttons {
+display: flex;
 }
 
-.correction a {
+.buttons a {
   display: block;
-
 }
 
 .button-details {
@@ -609,10 +607,9 @@ img {
   color: #81b3d2;
   display: block;
   font-size: 23px;
-  margin-left: 543px;
   letter-spacing: 5px;
   margin-top: 24px;
-
+  margin-left: 544px;
 }
 
 .raiting .number {
@@ -621,81 +618,54 @@ img {
   font-weight: normal;
   display: block;
   margin-top: 43px;
-  margin-left: 538px;
-}
-
-.second-correction h3 {
-  margin: 0px;
-  padding: 0px;
-  padding-top: 24px;
-  padding-left: 30px;
-}
-
-.second-hotels-nav p {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
+  margin-left: 540px;
 }
 
 .second-buildings {
-  display: block;
-  margin-left: 30px;
-  padding-top: 4px;
-
-}
-
-.second-money {
-  display: block;
-  margin-left: 64px;
-  margin-top: 4px;
-
-}
-
-.third-correction h3 {
   margin: 0px;
   padding: 0px;
-  padding-top: 22px;
+  padding-top: 2px;
   padding-left: 30px;
 }
 
-.third-hotels-nav p {
+.second-money {
   margin: 0px;
   padding: 0px;
-  display: flex;
-}
-
-.third-buildings {
-  display: block;
-  margin-left: 30px;
-  padding-top: 4px;
-
-}
-
-.third-money {
-  display: block;
-  margin-left: 20px;
-  margin-top: 4px;
-
+  padding-left: 66px;
+  padding-top: 2px;
 }
 
 .raiting .second-stars {
   color: #81b3d2;
   display: block;
   font-size: 23px;
-  margin-left: 568px;
-  letter-spacing: 5px;
-  margin-top: 24px;
+  letter-spacing: 4px;
+  margin-top: 23px;
+  margin-left: 569px;
+}
 
+
+.third-buildings {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 2px;
+  padding-left: 30px;
+}
+
+.third-money {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 21px;
+  padding-top: 1px;
 }
 
 .raiting .third-stars {
   color: #81b3d2;
   display: block;
   font-size: 23px;
-  margin-left: 592px;
   letter-spacing: 4px;
-  margin-top: 23px;
-
+  margin-top: 22px;
+  margin-left: 592px;
 }
 
 
