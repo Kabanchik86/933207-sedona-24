@@ -15,9 +15,9 @@ a {
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
-input[type="button"].visually-hidden {
+input[type="button"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -25,7 +25,7 @@ input[type="button"].visually-hidden {
   padding: 0;
   white-space: nowrap;
   clip-path: inset (100%);
-  clip: rect(0000);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -106,16 +106,18 @@ img {
 }
 
 .main-photo {
+  width: 1200px;
   padding-top: 76px;
   padding-bottom: 80px;
   align-items: center;
-  background-image: url(../img/background.jpg);
+  background: #ffffff url(../img/background.jpg);
   background-position: 50% 21%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin: auto;
   position: relative;
+  margin: auto;
+
 }
 
 .main-photo::after {
@@ -131,7 +133,6 @@ img {
 
 .main-headline {
   width: 1200px;
-  height: 216px;
   margin: auto;
   text-align: center;
   background-color: white;
@@ -141,22 +142,22 @@ img {
 
 .main-headline h3 {
   width: 440px;
-  padding-top: 59px;
   padding-left: 380px;
-  margin: 0px;
+  padding-top: 38px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  padding-bottom: 6px;
 }
 
 .main-headline p {
-  padding-top: 12px;
-  display: block;
+margin: 0px;
+padding: 0px;
+padding-bottom: 52px;
 }
 
 .first-main-headline {
   width: 1200px;
-  height: 256px;
   display: flex;
   margin: auto;
 }
@@ -183,6 +184,12 @@ img {
   padding-top: 6px;
   padding-left: 60px;
   line-height: 20px;
+  padding-bottom: 48px;
+}
+
+.first-main-headline a{
+  display: block;
+  height: 200px;
 }
 
 .third-main-headline {
@@ -226,7 +233,6 @@ img {
   padding: 0;
   background: white;
   width: 1200px;
-  height: 328px;
   display: flex;
   list-style: none;
   margin: auto;
@@ -234,17 +240,17 @@ img {
 }
 
 .home {
+  position: relative;
   font-size: 21px;
   padding-top: 136px;
-  padding-left: 12px;
-  position: relative;
-
+  padding-bottom: 10px;
 }
 
 .second-home {
   width: 252px;
   line-height: 22px;
   padding-left: 12px;
+  padding-bottom: 68px;
 }
 
 .food {
@@ -258,6 +264,7 @@ img {
   width: 290px;
   line-height: 22px;
   padding-left: 14px;
+  padding-bottom: 68px;
 }
 
 .things {
@@ -273,6 +280,7 @@ img {
   line-height: 22px;
   text-align: center;
   padding-right: 5px;
+  padding-bottom: 68px;
 }
 
 .main-facilities-items .home::before {
@@ -424,7 +432,7 @@ img {
   width: 1200px;
   height: 476px;
   align-items: center;
-  background-image: url(../img/map.jpg);
+  background: #ffffff url(../img/map.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -457,7 +465,7 @@ img {
 
 }
 
-.main-footer a {
+.instagram a {
   color: black;
 }
 
@@ -466,8 +474,9 @@ img {
   padding: 0px;
   list-style: none;
   display: flex;
-  padding-left: 253px;
+  margin-left: 253px;
   padding-bottom: 3px;
+
 }
 
 .footer-social a {
@@ -480,12 +489,39 @@ img {
   justify-content: center;
 }
 
-.footer-social:hover path,
-.footer-social:focus path {
-  fill: white;
+.vk:hover path {
+  fill: #ffffff;
 }
 
-.footer-social:active path {
+.vk:focus path {
+  fill: #ffffff;
+}
+
+.vk:active path {
+  fill: #88b6d1;
+}
+
+.facebook:hover path {
+  fill: #ffffff;
+}
+
+.facebook:focus path {
+  fill: #ffffff;
+}
+
+.facebook:active path {
+  fill: #88b6d1;
+}
+
+.youtube:hover path {
+  fill: #ffffff;
+}
+
+.youtube:focus path {
+  fill: #ffffff;
+}
+
+.youtube:active path {
   fill: #88b6d1;
 }
 
@@ -516,12 +552,12 @@ img {
 }
 
 
-.developer:hover path,
-.developer:focus path {
+.developer-logo:hover path,
+.developer-logo:focus path {
   fill: #81b3d2;
 }
 
-.developer:active path {
+.developer-logo:active path {
   fill: #c5c3c4;
 }
 
@@ -762,66 +798,105 @@ img {
   position: relative;
 }
 
-.container input[type="text"]{
-font-weight: bold;
-padding-left: 12px;
-text-transform: uppercase;
+.container input[type="text"] {
+  font-weight: bold;
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .first-forms {
-  width: 336px;
+  width: 330px;
   height: 32px;
-  margin-left: 20px;
-  padding-top: 6px;
+  margin-left: 18px;
+  padding-top: 4px;
   background-color: #f2f2f2;
-  border: 0px;
+  border-style:  solid;
+  border-color: #f2f2f2;
 }
 
 .second-forms {
-  width: 336px;
+  width: 330px;
   height: 34px;
-  margin-top: 18px;
-  margin-left: 16px;
+  margin-top: 12px;
+  margin-left: 14px;
   background-color: #f2f2f2;
-  border: 0px;
+  border-style: solid;
+  border-color: #f2f2f2;
 }
 
 .second-appointment {
   display: flex;
-  width: 512px;
   font-weight: bold;
-  margin: 0;
   padding-left: 55px;
+}
+
+.appointment-adult {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.appointment-adult label {
+  padding-top: 22px;
 }
 
 .third-forms {
   width: 30px;
-  height: 32px;
+  height: 35px;
   background-color: #ebebeb;
   border: 0px;
+  margin-top: 17px;
+  z-index: 1;
+}
+
+.appointment-adult input[type="text"] {
+  font-weight: bold;
+  text-indent: 6px;
+  text-transform: uppercase;
+}
+
+.appointment-children {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.appointment-children input[type="text"] {
+  font-weight: bold;
+  text-indent: 4px;
+  text-transform: uppercase;
+}
+
+.appointment-children label {
+  padding-top: 22px;
 }
 
 .fourth-forms {
-  width: 32px;
-  height: 32px;
-  margin: -4px;
+  width: 27px;
+  height: 35px;
   background-color: #ebebeb;
   border: 0px;
-  padding-top: 3px;
+  margin-top: 17px;
+  z-index: 1;
 }
 
+
 .plus {
-  width: 36px;
-  height: 36px;
+  width: 37px;
+  height: 37px;
   background-color: #ebebeb;
   border: 0px;
   font-weight: bold;
   font-size: 20px;
+  margin-top: 17px;
 }
 
 .minus {
   width: 37px;
   height: 37px;
+  margin-top: 17px;
   border: 0px;
   background-color: #ebebeb;
   font-weight: bold;
@@ -830,11 +905,10 @@ text-transform: uppercase;
 }
 
 .appointment-children {
-  margin-left: 55px;
+  margin-left: 51px;
 }
 
 .appointment-adult .minus {
-  margin-top: 3px;
   margin-left: 38px;
 }
 
@@ -842,10 +916,13 @@ text-transform: uppercase;
   margin-left: 30px;
 }
 
-::-webkit-input-placeholder {
+input::placeholder {
   color: black;
   font-weight: bold;
 }
+
+input::-moz-placeholder {color: #000000; font-weight: bold;}
+
 
 .appointment input:focus {
   background-color: white;
@@ -854,7 +931,6 @@ text-transform: uppercase;
 .appointment input:active {
   background-color: #ebebeb;
 }
-
 
 .appointment-adult button {
   color: #a9a9a9;
@@ -892,7 +968,7 @@ text-transform: uppercase;
   color: white;
   background-color: #81b3d2;
   margin-left: 55px;
-  margin-top: 40px;
+  margin-top: 53px;
   border: 0px;
 }
 
@@ -944,7 +1020,7 @@ text-transform: uppercase;
 
 .hotels-search .search {
   display: flex;
-  background-image: url(../css/img/filter-background.jpg);
+  background: #ffffff url(../css/img/filter-background.jpg);
   background-position: 50% 40%;
   background-repeat: no-repeat;
 }
@@ -971,7 +1047,7 @@ text-transform: uppercase;
   list-style: none;
 }
 
-.filter .structure-option .filter-option {
+.structure-option .filter-option {
   padding: 0;
   margin: 0;
   padding-left: 100px;
@@ -1023,7 +1099,7 @@ text-transform: uppercase;
   list-style: none;
 }
 
-.filter .accommodation-option .filter-option {
+.accommodation-option .filter-option {
   padding: 0;
   margin: 0;
   padding-left: 136px;
@@ -1102,10 +1178,9 @@ text-transform: uppercase;
 
 .price-controls label {
   display: inline-block;
-
+  vertical-align: top;
   font-size: 14px;
   line-height: 38px;
-  vertical-align: top;
   cursor: pointer;
 }
 
@@ -1128,30 +1203,25 @@ text-transform: uppercase;
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -1266,8 +1336,12 @@ text-transform: uppercase;
   margin-right: 12px;
 }
 
-.arrows-one a path {
+.arrows-one path {
   fill: #cacaca;
+}
+
+.arrows-two path {
+  fill: #81b3d2;
 }
 
 .arrows .arrows-two {
@@ -1275,11 +1349,20 @@ text-transform: uppercase;
   margin-right: 73px;
 }
 
-.arrows a:hover path,
-.arrows a:focus path {
+.arrows-one:hover path,
+.arrows-one:focus path {
   fill: black;
 }
 
-.arrows a:active path {
+.arrows-one:active path {
+  fill: #81b3d2;
+}
+
+.arrows-two:hover path,
+.arrows-two:focus path {
+  fill: black;
+}
+
+.arrows-two:active path {
   fill: #81b3d2;
 }
