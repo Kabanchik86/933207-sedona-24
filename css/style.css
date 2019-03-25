@@ -2,16 +2,18 @@ body{margin:0;padding:0;font-family:'PT Sans',Arial,sans-serif;font-size:14px;li
 a{text-decoration:none}
 .visually-hidden:not(:focus):not(:active),input[type="checkbox"].visually-hidden,input[type="button"].visually-hidden,input[type="radio"].visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;white-space:nowrap;clip-path:inset (100%);clip:rect(0 0 0 0);overflow:hidden}
 img{max-width:100%;height:auto}
-.main-navigation-logo{width:244px;text-align:center;z-index:1; position: absolute; left:552px}
-.main-navigation{width:1200px;color:#000;background-color:#fff;display:flex;margin:auto}
-.first-site-nav{padding:0;margin:0;list-style:none;order:0;width:478px;display:flex;text-align:center;padding-top:14px}
-.first-site-nav a{color:#000;display:block; width: 100px;}
-.info{padding-left:68px;font-weight:700; padding-bottom: 16px;}
-.photo_video{padding-left:142px;font-weight:700; padding-bottom: 16px;}
-.map{padding-left:380px;font-weight:700; padding-bottom: 16px;}
-.hotels{padding-left:148px;font-weight:700; padding-bottom: 16px;}
-.main-photo{width:1200px;padding-top:76px;padding-bottom:80px;align-items:center;background:#ffffff url(../img/background.jpg);background-position:50% 21%;background-repeat:no-repeat;display:flex;flex-direction:column;position:relative;margin:auto}
-.main-photo::after{content:"";background-image:url(../img/intro-mask.svg);background-repeat:no-repeat;background-position:0 0;position:absolute;width:1200px;height:59px;bottom:-3px}
+.main-navigation-logo{width:244px;height:56px;order:1;text-align:center;z-index:1}
+.main-navigation{width:1200px;height:56px;color:#000;background-color:#fff;display:flex;margin:auto}
+.first-site-nav{padding:0;margin:0;list-style:none;order:0;width:478px;height:56px;display:flex;text-align:center;padding-top:14px}
+.first-site-nav a{color:#000;display:block}
+.info{padding-left:72px;font-weight:700}
+.photo_video{padding-left:147px;font-weight:700}
+.second-site-nav{padding:0;margin:0;list-style:none;order:2;width:478px;height:56px;display:flex;text-align:center;padding-top:14px}
+.map{padding-left:77px;font-weight:700}
+.hotels{padding-left:163px;font-weight:700}
+.second-site-nav a{color:#000;display:block}
+.main-photo{width:1200px;padding-top:76px;padding-bottom:80px;align-items:center;background:#ffffff url(../img/background.jpg);background-position:50% 21%;background-repeat:no-repeat;display:flex;flex-direction:column;position:relative;margin:auto;}
+.main-photo::after{content:"";background-image:url(../img/intro-mask.svg);background-repeat:no-repeat;background-position:0 0;position:absolute;width:1200px;height:59px;bottom:-3px;}
 .main-headline{width:1200px;margin:auto;text-align:center;background-color:#fff;display:flex;flex-direction:column}
 .main-headline h3{width:440px;padding-left:380px;padding-top:38px;font-size:21px;line-height:26px;text-align:center;padding-bottom:6px}
 .main-headline p{margin:0;padding:0;padding-bottom:52px}
