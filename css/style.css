@@ -34,14 +34,6 @@ img {
   height: auto
 }
 
-.main-navigation-logo {
-  max-width: 244px;
-  order: 1;
-  width: 244px;
-  height: 56px;
-  text-align: center;
-  z-index: 2;
-}
 
 .main-navigation {
   max-width: 1200px;
@@ -57,10 +49,15 @@ img {
   list-style: none;
   order: 0;
   width: 1200px;
-  max-width: 478px;
   display: flex;
   text-align: center;
-  padding-top: 14px
+}
+
+.main-navigation-logo {
+  margin-left: 67px;
+  width: 244px;
+  height: 20px;
+  z-index: 2;
 }
 
 .first-site-nav a {
@@ -69,44 +66,35 @@ img {
 }
 
 .info {
+  margin-top: 14px;
   width: 100px;
-  padding-left: 68px;
-  font-weight: 700
+  margin-left: 68px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .photo_video {
+  margin-top: 14px;
   width: 100px;
-  padding-left: 143px;
-  font-weight: 700
-}
-
-.second-site-nav {
-  max-width: 478px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  order: 2;
-  width: 478px;
-  display: flex;
-  text-align: center;
-  padding-top: 14px
+  margin-left: 143px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .map {
+  margin-top: 14px;
   width: 100px;
-  padding-left: 69px;
-  font-weight: 700
+  margin-left: 69px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .hotels {
+  margin-top: 14px;
   width: 100px;
-  padding-left: 147px;
-  font-weight: 700
-}
-
-.second-site-nav a {
-  color: #000;
-  display: block
+  margin-left: 147px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .main-photo {
@@ -508,9 +496,9 @@ img {
   font-size: 21px;
   line-height: 26px;
   margin-left: 133px;
-  margin-top: 46px;
+  margin-top: 45px;
   font-weight: 700;
-  margin-bottom: 53px
+  margin-bottom: 53px;
 }
 
 .footer-social ul {
@@ -587,7 +575,6 @@ img {
 .footer-copyright {
   padding-top: 8px;
   margin-left: 226px;
-  padding-bottom: 10px
 }
 
 .developer-logo {
